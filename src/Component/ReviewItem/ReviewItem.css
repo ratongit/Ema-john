@@ -1,0 +1,45 @@
+.review-item{
+    border: 1px solid green;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.review-item img{
+    width: 90px;
+    border-radius: 6px;
+    height: 100px;
+}
+.price{
+    color: orange;
+}
+.review-info{
+    width: 200px;
+    margin: 20px ;
+    line-height: 1rem;
+    
+}
+.review-info h4{
+    line-height: 1rem;
+    font-weight: 500;
+    margin: 0px;
+}
+.delete-review{
+    background-color: aqua;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete-review .icon{
+    font-size: 27px;
+    color: brown;
+}
+.review-info p{
+    margin:5px 0;
+}
